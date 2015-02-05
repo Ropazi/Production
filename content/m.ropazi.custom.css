@@ -1,0 +1,94 @@
+﻿@media only screen and (min-width: 320px) and (max-width: 768px)/* and (orientation: portrait)*/{
+	.row, .banner-row { min-width:320px;}
+
+	#item-list{
+		padding: 12px 0 0 10px;
+	}
+	 	
+	.content-clipping-panel{
+		font-size:8px;
+	}
+		
+		
+	a img.content-picture{
+		width:50px;
+		height:50px;
+	}
+	
+	.overlay-item-clip{
+		max-width: 117px;
+		font-size: 10px;
+	}
+	
+	.overlay-item-clip-add-btn a{
+		font-size:20px;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) and (orientation: portrait){
+#item-list .item{
+		width: 145px;
+		margin: 0 0 15px 0;
+	}
+
+	.container-position{
+		position:relative;
+		min-height:145px;
+	}
+	.price{
+		font-size:13px;
+		padding-left: 0px;
+	}
+	.right-imgs-child{
+		font-size:8px;
+		margin-right:5px;
+	}
+	.overlay-text{
+		font-size:12px;
+	}
+	
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) and (orientation: landscape){
+#item-list .item{
+		width: 129.5px;
+		margin: 0 0 15px 0;
+	}
+
+	.container-position{
+		position:relative;
+		min-height:145px;
+	}
+	.price{
+		font-size:11px;
+		padding-left: 0px;
+	}
+	.right-imgs-child{
+		font-size:7px;
+		margin-right:2px;
+	}
+	.overlay-text{
+		font-size:10px;
+	}
+	
+}
+#topbanner .topbanner-innerrow { display:none;}
+#topbanner .mobile-menu { display:block !important;}
+#banner-line-container { display:none;}
+#banner-line { height:0px;}
+
+
+/*
+@media only screen and (min-width: 321px) and (max-width: 768px) and (orientation: landscape){
+	.row, .banner-row { min-width:320px;}
+	#item-list{
+		padding: 12px 0 0 10px;
+	 }
+	 
+	 #item-list .item{
+		width: 145px;
+		margin: 0 0 15px 0;
+	 }
+	 .container-position{
+		position:relative;
+		min-height:145px;
+	}
+}*/

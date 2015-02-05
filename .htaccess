@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule ^content/(.*\.css) /combine.php?type=css&files=$1
+RewriteRule ^content/scripts/(.*\.js) /combine.php?type=javascript&files=$1
+RewriteRule ^([a-zA-Z]*)/?([a-zA-Z]*)?/?([a-zA-Z0-9]*)?/?$ index.php?controller=$1&action=$2&id=$3 [QSA,NC,L]
